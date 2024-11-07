@@ -1,7 +1,7 @@
 
-# LeetCode Questões
+# Grafos 1 - LeetCode Questões
 
-**Número da Lista**: 43<br>
+**Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
@@ -11,21 +11,29 @@
 | 22/1007680  |  Bruno Ricardo de Menezes |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina, a dupla selecionou algumas questões do LeetCode. Sendo eles 2 de nível difícil e 2 de nível médio.
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+## Screenshots (Questões)
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+### 2608. Shortest Cycle in The Graph 
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+- [Link da Questão](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+- [Vídeo - Explicação]()
+
+### X. xxxxx
+
+- [Link da Questão]()
+
+- [Vídeo - Explicação]()
+
+### X. xxxxx
+
+- [Link da Questão]()
+
+- [Vídeo - Explicação]()
+
+
 
 
 
