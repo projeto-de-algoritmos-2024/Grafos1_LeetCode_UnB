@@ -25,38 +25,54 @@ public:
     int findShortestCycle(int n, vector<vector<int>>& edges) {
         Grafo grafo(n);
 
-        // inicializa o grafo
-        for (int i = 0; i < edges.size(); i++) {
-            grafo.addAresta(edges[i][0], edges[i][1]);
-            grafo.addAresta(edges[i][1], edges[i][0]); // grafo bidirecional
+        // inicializa o grafo 
+        int tamanho = edges.size();
+        for (int i = 0; i < tamanho; i++) {
+            int origem = edges[i][0];
+            int destino = edges[i][1];
+            grafo.addAresta(origem, destino);
+            grafo.addAresta(destino, origem); // grafo bidirecional
         }
 
-        int shortestCycle = INT_MAX;// ciclo mais curto
+        int shortestCycle = INT_MAX; // ciclo mais curto
 
         // busca em largura para encontrar o ciclo mais curto
         for (int start = 0; start < n; start++) {
             vector<int> distance(n, -1);
+            vector<int> tempDistance = distance;
             queue<int> q; 
-            q.push(start);// add o vertice inicial na fila
-            distance[start] = 0;// atribundo distancia inicial como 0
+            q.push(start); // add o vertice inicial na fila
+            tempDistance[start] = 0; // atribuindo distancia inicial como 0
+            distance[start] = tempDistance[start]; 
 
             while (!q.empty()) {
-                int node = q.front();// pega o primeiro elemento da fila
-                q.pop();// remove o primeiro elemento da fila
-
+                int node = q.front(); // pega o primeiro elemento da fila
+                int currentNode = node; 
+                q.pop(); // remove o primeiro elemento da fila
 
                 // percorre os vertices adjacentes ao vertice atual
-                for (auto it = grafo.adj[node].begin(); it != grafo.adj[node].end(); it++) {
-                    if (distance[*it] == -1) {// se o vertice nao foi visitado
-                        distance[*it] = distance[node] + 1;// add +1 na distancia
-                        q.push(*it);
-                    } else if (distance[*it] >= distance[node]) {// se o vertice ja foi visitado
-                        shortestCycle = min(shortestCycle, distance[node] + distance[*it] + 1);// atualiza o ciclo mais curto
+                for (auto it = grafo.adj[currentNode].begin(); it != grafo.adj[currentNode].end(); it++) {
+                    int vizinho = *it;
+                    if (distance[vizinho] == -1) { // se o vertice nao foi visitado
+                        int novaDistancia = distance[currentNode] + 1; 
+                        distance[vizinho] = novaDistancia;
+                        tempDistance[vizinho] = distance[vizinho]; 
+                        q.push(vizinho);
+                    } else if (distance[vizinho] >= distance[currentNode]) { // se o vertice ja foi visitado
+                        int cicloAtual = distance[currentNode] + distance[vizinho] + 1; 
+                        shortestCycle = min(shortestCycle, cicloAtual);
                     }
                 }
             }
         }
+
         // se nao foi encontrado nenhum ciclo retorna -1
-        return (shortestCycle == INT_MAX) ? -1 : shortestCycle;
+        int resultado;
+        if (shortestCycle == INT_MAX) {
+            resultado = -1;
+        } else {
+            resultado = shortestCycle;
+        }
+        return resultado;
     }
 };
