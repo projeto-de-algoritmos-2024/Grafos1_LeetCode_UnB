@@ -19,7 +19,7 @@ No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina,
 
 - [Link da Questão](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)
 
-- [Vídeo - Explicação]()
+- [Vídeo - Explicação](https://youtu.be/8XMtwjMO2bs)
 
 ### X. xxxxx
 
