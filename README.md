@@ -15,7 +15,7 @@ No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina,
 
 ## Screenshots (Questões)
 
-### 2608. Shortest Cycle in The Graph 
+### 2608. Shortest Cycle in The Graph (Difícil)
 
 - [Link da Questão](https://leetcode.com/problems/shortest-cycle-in-a-graph/description/)
 
@@ -28,11 +28,18 @@ No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina,
 
 </div>
 
-### X. xxxxx
+### 2360. Longest Cycle in a Graph (Difícil)
 
-- [Link da Questão]()
+- [Link da Questão](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)
 
 - [Vídeo - Explicação]()
+
+<!-- <div align="left">
+  <img src="https://github.com/user-attachments/assets/1f272e01-29bd-4695-a163-144c16475b70" width="700" alt="Questao 2360">
+  <br>
+    <em>Imagem 1 - Questão 2608</em>
+
+</div> -->
 
 ### X. xxxxx
 
