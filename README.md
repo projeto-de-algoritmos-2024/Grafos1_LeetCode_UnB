@@ -12,7 +12,7 @@
 
 ## Sobre 
 
-No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina, a dupla selecionou algumas questões do LeetCode. Sendo eles 2 de nível difícil e 2 de nível médio.
+No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina, a dupla selecionou algumas questões do LeetCode. Sendo eles 2 de nível difícil e 1 de nível médio.
 
 ## Screenshots (Questões)
 
