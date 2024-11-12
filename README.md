@@ -41,11 +41,18 @@ No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina,
 
 </div> -->
 
-### X. xxxxx
+### 785. Is Graph Bipartite? (Médio)
 
-- [Link da Questão]()
+- [Link da Questão](https://leetcode.com/problems/is-graph-bipartite/)
 
 - [Vídeo - Explicação]()
+
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/14695fe5-d256-4ac4-b4d4-5c85c0668420" width="700" alt="Questao 2608">
+  <br>
+    <em>Imagem 3 - Questão 785</em>
+
+</div>
 
 
 
