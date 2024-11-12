@@ -11,6 +11,7 @@
 | 22/1007680  |  Bruno Ricardo de Menezes |
 
 ## Sobre 
+
 No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina, a dupla selecionou algumas questões do LeetCode. Sendo eles 2 de nível difícil e 2 de nível médio.
 
 ## Screenshots (Questões)
@@ -34,12 +35,12 @@ No trabalho 1 de Projeto de Algoritmos, no módulo sobre Grafos 1 na disciplina,
 
 - [Vídeo - Explicação](https://www.youtube.com/watch?v=F_hOBtIy_Js&ab_channel=BrunoRicardodeMenezes)
 
-<!-- <div align="left">
-  <img src="https://github.com/user-attachments/assets/1f272e01-29bd-4695-a163-144c16475b70" width="700" alt="Questao 2360">
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/8b034270-2a6f-41e3-9f80-a2150e9bca3a" width="700" alt="Questao 2360">
   <br>
-    <em>Imagem 1 - Questão 2608</em>
+    <em>Imagem 2 - Questão 2360</em>
 
-</div> -->
+</div> 
 
 ### 785. Is Graph Bipartite? (Médio)
 
